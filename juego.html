@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Juego en marcha">
+		<title>Juego</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" media='screen and (min-width: 961px)' type="text/css" href="css/lunarlanding.css">
+		<link rel='stylesheet' media='screen and (max-width: 960px)' type="text/css" href='css/movil.css'>
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+		<div class="panel-control">
+			<div id="showm">Menú</div>
+			<ul id="panel-control">
+				<li>Velociad : <span id="velocidad">00</span> km/h</li>
+ 				<li>Nivel de Combustible : <span id="combustible"></span> l</li>
+  				<li>Altura : <span id="altura">00</span> m</li>
+			</ul>
+		</div>
+
+		<div class="nave">
+			<div id="nave">
+				<img id="imgnave" src="img/nave.png" alt="nave espacial">
+			</div>
+		</div>
+		
+		<div class="opciones-juego">
+			<div id="hidem">Ocultar</div>
+			<ul id="opciones-juego">
+				<li><a><h4>Game Options</h4></a>
+					<ul>
+						<li id="Pausa"><span>Pausa</span></li>
+						<li id="Reanudar"><span>Reanudar</span></li>
+						<li><a id="resetGame" href="">Reiniciar</a></li>
+						<li><a href="index.html">Salir</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="land"></div>
+	</body>
+</html>
